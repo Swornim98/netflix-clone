@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+header{
+    height:91px;
+    display:block;
+    align-items: center;
+    flex-direction: row;
+
+}
+.logo{
+    height:90px;
+    width:169px;
+    display:flex;
+    align-items: center;
+}
+.logo img{
+    height:45px;
+}
+#sign-in {
+    color: #333;
+    font-size: 19px;
+    font-weight: 600;
+    text-decoration: none;
+    justify-self: end;
+    display:inline-block;
+}
